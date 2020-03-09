@@ -1,0 +1,18 @@
+{
+  "name": "bsll/api-bundle",
+  "version": "0.0.1",
+  "type": "symfony-bundle",
+  "description": "Bundle for developing REST API",
+  "minimum-stability": "dev",
+  "require": {
+    "friendsofsymfony/oauth-server-bundle": "^1.6",
+    "friendsofsymfony/rest-bundle": "^2.6",
+    "jms/serializer-bundle": "^3.4",
+    "sonata-project/user-bundle": "^4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bsll\\ApiBundle\\": ""
+    }
+  }
+}
