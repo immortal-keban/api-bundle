@@ -12,7 +12,11 @@
   },
   "autoload": {
     "psr-4": {
-      "Bsll\\ApiBundle\\": ""
+      "Bsll\\ApiBundle\\": "",
+      "Bsll\\ApiBundle\\Tests\\": "Tests/"
     }
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^5.1@dev"
   }
 }
